@@ -1,14 +1,40 @@
 
-var d = new Date();
+function soma(n1, n2){
+    return n1+n2;
+}
+
+function validaIdade(idade){
+    var vaçlidar;
+    if (idade >=18){
+        valirdar = true
+    } else{
+        validar=false
+    }
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+
+alert(soma(5,10));
+
+
+/*function setReplace (frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+
+
+alert(soma(5, 10));
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+*/
+
+
+//var d = new Date();
 //alert(d);
 //alert(d.getMonth()+1);
-alert(d.getMinutes());
-alert(d.getDay());
-alert(d.getHours());
-alert(d.getMinutes());
-
-
-
+//alert(d.getMinutes());
+//alert(d.getDay());
+//alert(d.getHours());
+//alert(d.getMinutes());
 
 
 
