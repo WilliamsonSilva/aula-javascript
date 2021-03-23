@@ -1,21 +1,58 @@
 
-function soma(n1, n2){
-    return n1+n2;
+function clicou (){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>"; // injetar um texto e html aqui dentro
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
 }
 
+function redirecionar (){
+    window.open("http://ww1.globallabs.academy/"); //- abre em uma página
+    //window.location.href = "http://ww1.globallabs.academy/"; // abre na mesma página
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+    elemento.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Página Carregada"); 
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value) // sempre que ele escolher um valor, aquilo vai ficar guardado
+}
+
+/* function soma(n1, n2){
+    return n1+n2;
+}
+*/
+
+/*
+ var validar; // variável global
 function validaIdade(idade){
-    var vaçlidar;
+   // var validar; -> variável local
     if (idade >=18){
-        valirdar = true
+        validar = true
     } else{
         validar=false
     }
+    return validar;
 }
 
 var idade = prompt("Qual sua idade");
-console.log(validaIdade(idade));
+validaIdade(idade);
+console.log(validar);
+//console.log(validaIdade(idade));
+*/
 
-alert(soma(5,10));
+//alert(soma(5,10));
 
 
 /*function setReplace (frase, nome, novo_nome){
